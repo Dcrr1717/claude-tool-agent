@@ -1,0 +1,85 @@
+{
+  "description": "Tiny local knowledge base of mathematical constants and concepts. Used by the knowledge_lookup tool to demonstrate grounded reasoning: the agent retrieves facts from here instead of relying on its parametric memory.",
+  "entries": [
+    {
+      "id": "pi",
+      "name": "Pi",
+      "aliases": ["pi", "π", "circle constant", "archimedes constant"],
+      "category": "constant",
+      "value": "3.1415926535897932",
+      "summary": "The ratio of a circle's circumference to its diameter. Irrational and transcendental. Appears throughout geometry, trigonometry and analysis."
+    },
+    {
+      "id": "e",
+      "name": "Euler's number",
+      "aliases": ["e", "euler number", "eulers number", "napier constant", "base of the natural logarithm"],
+      "category": "constant",
+      "value": "2.7182818284590452",
+      "summary": "The base of the natural logarithm. Defined as the limit of (1 + 1/n)^n as n grows. The function e^x is its own derivative, which makes it central to calculus and growth models."
+    },
+    {
+      "id": "phi",
+      "name": "Golden ratio",
+      "aliases": ["phi", "φ", "golden ratio", "golden mean", "divine proportion"],
+      "category": "constant",
+      "value": "1.6180339887498948",
+      "summary": "Equal to (1 + sqrt(5)) / 2. Two quantities are in the golden ratio if their ratio equals the ratio of their sum to the larger quantity. Linked to the Fibonacci sequence, whose consecutive ratios converge to it."
+    },
+    {
+      "id": "sqrt2",
+      "name": "Square root of two",
+      "aliases": ["sqrt2", "root two", "square root of 2", "pythagoras constant"],
+      "category": "constant",
+      "value": "1.4142135623730951",
+      "summary": "The length of the diagonal of a unit square. The first number proven irrational (attributed to the Pythagoreans), a result that shook ancient Greek mathematics."
+    },
+    {
+      "id": "euler_mascheroni",
+      "name": "Euler-Mascheroni constant",
+      "aliases": ["gamma", "γ", "euler mascheroni", "euler mascheroni constant"],
+      "category": "constant",
+      "value": "0.5772156649015329",
+      "summary": "The limiting difference between the harmonic series and the natural logarithm. It is unknown whether it is rational or irrational, one of the famous open problems in number theory."
+    },
+    {
+      "id": "prime_number",
+      "name": "Prime number",
+      "aliases": ["prime", "prime number", "primes"],
+      "category": "concept",
+      "value": "n/a",
+      "summary": "A natural number greater than 1 whose only positive divisors are 1 and itself. Primes are the multiplicative building blocks of the integers by the fundamental theorem of arithmetic."
+    },
+    {
+      "id": "carmichael_number",
+      "name": "Carmichael number",
+      "aliases": ["carmichael", "carmichael number", "absolute fermat pseudoprime"],
+      "category": "concept",
+      "value": "n/a",
+      "summary": "A composite number n that satisfies Fermat's little congruence b^(n-1) = 1 (mod n) for every b coprime to n, so it fools the Fermat primality test. The smallest is 561 = 3 x 11 x 17."
+    },
+    {
+      "id": "fundamental_theorem_arithmetic",
+      "name": "Fundamental theorem of arithmetic",
+      "aliases": ["fundamental theorem of arithmetic", "unique factorization", "prime factorization theorem"],
+      "category": "theorem",
+      "value": "n/a",
+      "summary": "Every integer greater than 1 is either prime or can be written as a product of primes in exactly one way up to the order of the factors."
+    },
+    {
+      "id": "fibonacci",
+      "name": "Fibonacci sequence",
+      "aliases": ["fibonacci", "fibonacci sequence", "fibonacci numbers"],
+      "category": "concept",
+      "value": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...",
+      "summary": "Each term is the sum of the two before it, starting from 0 and 1. The ratio of consecutive terms converges to the golden ratio, and the sequence appears in many natural growth patterns."
+    },
+    {
+      "id": "googol",
+      "name": "Googol",
+      "aliases": ["googol", "ten to the hundred"],
+      "category": "concept",
+      "value": "1e100",
+      "summary": "The number 10^100, i.e. a 1 followed by one hundred zeros. Coined by a nine-year-old and later the inspiration for the name of the company Google."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Runtime dependencies
+anthropic>=0.116        # Anthropic Python SDK: beta_tool + client.beta.messages.tool_runner
+sympy>=1.12             # exact/symbolic math for the calculate and number tools
+
+# Dev / tests (safe to install everywhere; needed only to run `pytest`)
+pytest>=8.0
